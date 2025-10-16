@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/.Python
+.env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# FastAPI/Backend
+backend/.env
+backend/.env.local
+backend/test.db
+backend/alembic/versions/
+
+# React/Frontend
+frontend/node_modules/
+frontend/.env.local
+frontend/build/
+frontend/dist/
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
